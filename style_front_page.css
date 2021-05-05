@@ -86,10 +86,10 @@
 }
 
 .cursor {
-    cursor: url('tache_front_page.png') 4 12, auto;
-    background:#F8C8B4;
-    height: 30px;
-    width: 30px;
+    background-image: url('tache_front_page.png');
+    background-size: contain;
+    height: 86px;
+    width: 109.5px;
 
     position: absolute;
 }
