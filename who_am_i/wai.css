@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+
+    text-align:center;
+    margin : auto;
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    width : 100%;
+    height : auto;
+}
+
+.nom
+{
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    font-size : 4vw;
+    margin-left : 4%;
+    margin-top : 4%;
+    margin-bottom: 2%;
+}
+
+.resize 
+{
+    max-width: 425px;
+    margin: 0px auto;
+}
+  
+.resize > div 
+{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0px;
+}
+  
+.resize iframe
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.text_content
+{
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    font-size : 1.7vw;
+    text-align: justify;
+    margin-left : 4%;
+    margin-right: 4%;
+    margin-top : 1%;
+}
+.test
+{
+    margin : 0;
+    list-style-type: none;
+    background: #F2D3D7; /* background color */
+    display: block;
+    border-radius: 0; /* square corners */
+    font-family: 'Roboto', arial;
+    font-weight: 900;
+    padding : 0.30% 0%;
+    margin-top : 1%;
+    text-align : center;
+}
+
+.button-one,
+.button-two,
+.button-three,
+.button-four {
+    background: #F2D3D7; /* background color */
+    color: #404040; /* text color */
+    width : 8%;
+    text-decoration : none;
+    padding : 0px 80px;
+    padding : 0% 5%;
+    
+}
+
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover {
+    background: #fff;
+}
+
+
+.lone_image_row
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    padding : 0% 20% 0% 20%;
+    
+}
+
+.lone_image_row_2
+{
+    margin-bottom : 21px;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.Texte
+{
+    font-family: 'Roboto', arial;
+    font-size:4vw;
+    color : #626262;
+    font-weight : rgb(0, 0, 0);
+    margin-left : 3%;
+    margin-top: 2%;
+
+}
+
+.Contact
+{
+    font-family: 'Roboto', arial;
+    font-weight: lighter;
+    color : #626262;
+    font-size : 3vw;
+    text-align : center;
+    margin-bottom: 2%;
+}

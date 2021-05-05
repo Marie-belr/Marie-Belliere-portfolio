@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper{
+
+    text-align:center;
+    margin : auto;
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    width : 100%;
+    height : auto;
+}
+
+.name{
+    font-size : 103.5px;
+    text-align: center;
+}
+
+.logo{
+    width : 100%;
+}
+
+.presentation{
+    font-size : 24px;
+}
+
+.test
+{
+    margin : 0;
+    list-style-type: none;
+    background: #F2D3D7; /* background color */
+    display: block;
+    border-radius: 0; /* square corners */
+    font-family: 'Roboto', arial;
+    font-weight: 900;
+    padding : 0.30% 0%;
+    margin-top : 1%;
+    text-align : center;
+}
+
+.button-one,
+.button-two,
+.button-three,
+.button-four {
+    background: #F2D3D7; /* background color */
+    color: #404040; /* text color */
+    width : 8%;
+    text-decoration : none;
+    padding : 0px 80px;
+    padding : 0% 5%;
+    
+}
+
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover {
+    background: #fff;
+}
+
+/* .face
+{
+    text-align: center;
+    height : 42%;
+    width : auto;
+    background-color :hsl(0, 68%, 31%);
+    padding: 250;
+    background: url("First_page/sfp_picture.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-size: auto;
+    margin-bottom : 43px;
+     margin-bottom: 2%; 
+     
+} */
+/* .face
+{
+    height : 50%;
+    width : auto;
+    background: url("First_page/sfp_picture.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+} */
+
+.lone_image_row_2
+{
+    margin-bottom : 21px;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+
+.goDraw{
+    background: url("First_page/sfp_vers_créa.png") ;
+}
+
+.goWork
+{
+    background: url("First_page/sfp_vers_photo.png");
+}
+.goVideo
+{
+    background: url("First_page/sfp_vers_vidéo.png");
+}
+.goMe
+{
+    background: url("First_page/sfp_vers_me.png");
+}
+.goDraw,
+.goWork,
+.goVideo,
+.goMe
+{
+    /* background-attachment: local; */
+    /* text-align: right; */
+    height: auto;
+    width : auto;
+    background-repeat:no-repeat;
+    background-size: contain;
+    padding: 12% 0;
+    text-align: right;
+    line-height: 2;
+    /* line-height :100%; */
+}
+
+.goDraw a.button,
+.goWork a.button,
+.goVideo a.button,
+.goMe a.button {
+    text-decoration : none;
+    background-color : #F2D3D7;
+    box-shadow: 12px 12px 2px 1px #F8E9EB   ;
+    position : relative;
+    --c: #ffffff;
+    color: var(--c);
+    border: 0.04em solid var(--c);
+    border-radius: 0.1em;
+    font-family: 'Great Sejagad', sans-serif;
+    /* position: relative; */
+    overflow: hidden;
+    transition: 0.5s;
+    padding : 2%;
+    margin-right : 11%;
+    /* margin-left : 65%; */
+    /* margin-top: 40%; */
+}
+
+/* .goDraw a.button span,
+.goWork a.button span,
+.goVideo a.button span,
+.goMe a.button span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+} */
+
+.goDraw a.button:hover,
+.goWork a.button:hover,
+.goVideo a.button:hover,
+.goMe a.button:hover {
+    color:#F2D3D7;
+    background-color: hsl(0, 0%, 100%);
+    border: 0.04em solid #F2D3D7;
+
+}
+/* 
+.goDraw a.button:hover span,
+.goVideo a.button:hover span,
+.goMe a.button:hover span,
+.goWork a.button:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.goDraw a.button span:nth-child(1),
+.goVideo a.button span:nth-child(1),
+.goWork a.button span:nth-child(1),
+.goMe a.button span:nth-child(1) {
+    --n: 1;
+}
+
+.goDraw a.button span:nth-child(2),
+.goVideo a.button span:nth-child(2),
+.goWork a.button span:nth-child(2),
+.goMe a.button span:nth-child(2) {
+    --n: 2;
+}
+.goDraw a.button span:nth-child(3),
+.goVideo a.button span:nth-child(3),
+.goWork a.button span:nth-child(3),
+.goMe a.button span:nth-child(3) {
+    --n: 3;
+}
+.goDraw a.button span:nth-child(4),
+.goVideo a.button span:nth-child(4),
+.goWork a.button span:nth-child(4),
+.goMe a.button span:nth-child(4) {
+    --n: 4;
+} */
+
+
+.Texte
+{
+    font-family: 'Roboto', arial;
+    font-size:4vw;
+    color : #626262;
+    font-weight : rgb(0, 0, 0);
+    margin-left : 3%;
+}
+
+.Contact
+{
+    font-family: 'Roboto', arial;
+    font-weight: lighter;
+    color : #626262;
+    font-size : 3vw;
+    text-align : center;
+    margin-bottom: 2%;
+}

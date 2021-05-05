@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+
+    text-align:center;
+    margin : auto;
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+}
+
+.name{
+    font-size : 103.5px;
+
+
+}
+
+.presentation{
+    font-size : 24px;
+}
+.test
+{
+    padding : 0;
+    margin : 0;
+    list-style-type: none;
+    background: #F2D3D7; /* background color */
+    display: block;
+    border-radius: 0; /* square corners */
+    font-family: 'Roboto', arial;
+    font-weight: 900;
+    font-size : 35px;
+    /*height : 20px;*/  
+    padding : 33px 0px;
+    margin-top : 15px;
+    text-align : center;
+    /* width : 1500px; */
+    /*line-height : 0.9em;*/
+}
+
+.button-one,
+.button-two,
+.button-three,
+.button-four {
+    background: #F2D3D7; /* background color */
+    color: #404040; /* text color */
+    width : 125px;
+    text-decoration : none;
+    padding : 25px 80px;
+
+}
+
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover {
+    background: #fff;
+}
+
+.nom
+{
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    font-size : 60px;
+    margin-left : 50px;
+    margin-top : 20px;
+}
+
+.Texte
+{
+    font-family: 'Roboto', arial;
+    font-size : 107px;
+    color : #626262;
+    font-weight : Black;
+    margin-left : 40px;
+
+}
+
+.Contact
+{
+    font-family: 'Roboto', arial;
+    font-weight: lighter;
+    color : #626262;
+    font-size : 90px;
+    text-align : center;
+}

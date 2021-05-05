@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper{
+
+    text-align:center;
+    margin : auto;
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    width : 100%;
+    height : auto;
+}
+
+
+.name{
+    font-size : 103.5px;
+    text-align: center;
+}
+
+.logo{
+    width : 100%;
+}
+
+.presentation{
+    font-size : 24px;
+}
+
+.test
+{
+    margin : 0;
+    list-style-type: none;
+    background: #F2D3D7; /* background color */
+    display: block;
+    border-radius: 0; /* square corners */
+    font-family: 'Roboto', arial;
+    font-weight: 900;
+    padding : 0.30% 0%;
+    margin-top : 1%;
+    text-align : center;
+}
+
+.button-one,
+.button-two,
+.button-three,
+.button-four {
+    background: #F2D3D7; /* background color */
+    color: #404040; /* text color */
+    width : 8%;
+    text-decoration : none;
+    padding : 0px 80px;
+    padding : 0% 5%;
+    
+}
+
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover {
+    background: #fff;
+}
+
+.Texte
+{
+    margin-top : 6%;
+    font-family: 'Roboto', arial;
+    /* font-size : 107px; */
+    /* font-size : 10%; */
+    font-size:5.6vw;
+    color : #626262;
+    font-weight : Black;
+    margin-left : 3%;
+
+}
+
+.Contact
+{
+    font-family: 'Roboto', arial;
+    font-weight: lighter;
+    color : #626262;
+    font-size : 4.9vw;
+    text-align : center;
+}
+
+.landscape,
+.portrait
+{
+    color : #626262;
+    padding :unset;
+    font-family: 'Roboto', arial;
+    font-weight: bolder;
+    position: absolute;
+    padding : 21.2% 10%;
+    /* background-color: black; */
+    top: 50%;
+    font-size:5.6vw;
+    transform: translate(-50%, -50%);
+}
+
+.landscape:hover,
+.portrait:hover
+{
+    color : white;
+}
+.landscape
+{
+    left: 25%; 
+}
+.portrait   
+{
+    /* background-color: rgb(255, 0, 0); */
+    padding : 21.5% 15%;
+    left : 75%;
+}
+
+.two_images_row
+{
+    display: flex;
+    margin-bottom : 50px;
+    text-align: center;
+    position: relative;
+}
+
+.lone_image_row_2
+{
+    margin-bottom : 21px;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.column {
+    flex: 50%;
+    padding: 21px;
+  }
+
+
+  .Texte
+  {
+      font-family: 'Roboto', arial;
+      font-size:4vw;
+      color : #626262;
+      font-weight : rgb(0, 0, 0);
+      margin-left : 3%;
+  }
+  
+  .Contact
+  {
+      font-family: 'Roboto', arial;
+      font-weight: lighter;
+      color : #626262;
+      font-size : 3vw;
+      text-align : center;
+      margin-bottom: 2%;
+  }

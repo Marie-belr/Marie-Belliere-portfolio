@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper{
+
+    text-align:center;
+    margin : auto;
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    width : 100%;
+    height : auto;
+}
+
+
+.name{
+    font-size : 103.5px;
+    text-align: center;
+}
+
+.logo{
+    width : 100%;
+}
+
+.presentation{
+    font-size : 24px;
+}
+
+.test
+{
+    margin : 0;
+    list-style-type: none;
+    background: #F2D3D7; /* background color */
+    display: block;
+    border-radius: 0; /* square corners */
+    font-family: 'Roboto', arial;
+    font-weight: 900;
+    padding : 0.30% 0%;
+    margin-top : 1%;
+    text-align : center;
+}
+
+.button-one,
+.button-two,
+.button-three,
+.button-four {
+    background: #F2D3D7; /* background color */
+    color: #404040; /* text color */
+    width : 8%;
+    text-decoration : none;
+    padding : 0px 80px;
+    padding : 0% 5%;
+    
+}
+
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover {
+    background: #fff;
+}
+
+.goLogo{
+    background: url("./Groupe\ 9.png") ;
+}
+
+.goCMRP
+{
+    background: url("./Groupe\ 10.png");
+}
+.goCUI
+{
+    background: url("./Groupe\ 12.png");
+}
+.goEP
+{
+    background: url("./Groupe\ 11.png");
+}
+.goDP
+{
+    background: url("./Groupe\ 16.png");
+}
+.goAP
+{
+    background: url("./Groupe\ 14.png");
+}
+.goMore
+{
+    background: url("./Groupe\ 13.png");
+}
+.goLogo,
+.goCMRP,
+.goCUI,
+.goEP,
+.goDP,
+.goAP,
+.goMore
+{
+    margin-top: 3%;
+    height: auto;
+    width : auto;
+    background-repeat:no-repeat;
+    background-size: contain;
+    padding: 7% 0;
+    text-align: right;
+    /* font-size : 4.5vw; */
+}
+
+.goLogo a.button,
+.goCMRP a.button,
+.goCUI a.button,
+.goEP a.button,
+.goDP a.button,
+.goAP a.button,
+.goMore a.button {
+    font-size : 4.5vw;
+    text-decoration : none;
+    background-color : #F2D3D7;
+    box-shadow: 12px 12px 2px 1px #F8E9EB;
+    position : relative;
+    --c: #ffffff;
+    color: var(--c);
+    border: 0.04em solid var(--c);
+    border-radius: 0.1em;
+    font-family: 'Great Sejagad', sans-serif;
+    overflow: hidden;
+    transition: 0.5s;
+    padding : 2%;
+    margin-right : 4%;
+}
+
+.goLogo a.button
+{
+    background-color : #E7C64D;
+    box-shadow: 12px 12px 2px 1px #F0DD97;
+}
+
+.goCMRP a.button
+{
+    background-color : #0083C9;
+    box-shadow: 12px 12px 2px 1px #245179;
+}
+
+.goCUI a.button
+{
+    background-color : #b33e89;
+    box-shadow: 12px 12px 2px 1px #d99ec4;
+}
+
+.goEP a.button
+{
+    background-color : #a3cfd6;
+    box-shadow: 12px 12px 2px 1px #a3cfd5;
+}
+
+.goDP a.button
+{
+    background-color : #706f6f;
+    box-shadow: 12px 12px 2px 1px #b7b6b6;
+}
+
+.goAP a.button
+{
+    background-color : #121831;
+    box-shadow: 12px 12px 2px 1px #584133;
+}
+
+.goMore a.button
+{
+    background-color : #f5decd;
+    box-shadow: 12px 12px 2px 1px #efd9c9;
+}
+
+.goLogo a.button:hover,
+.goCMRP a.button:hover,
+.goCUI a.button:hover,
+.goEP a.button:hover,
+.goDP a.button:hover,
+.goAP a.button:hover,
+.goMore a.button:hover {
+    /* color:#F2D3D7; */
+    background-color: hsl(0, 0%, 100%);
+    /* border: 0.04em solid #F2D3D7; */
+
+}
+
+.goLogo a.button:hover
+{
+    --e : #E7C64D;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.goCMRP a.button:hover
+{
+    --e : #0083C9;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.goCUI a.button:hover
+{
+    --e : #b33e89;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.goEP a.button:hover
+{
+    --e : #a3cfd6;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.godp a.button:hover
+{
+    --e :#706f6f;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.goAP a.button:hover
+{
+    --e : #121831;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.goMore a.button:hover
+{
+    --e : #f5decd;
+    color : var(--e);
+    border: 0.04em solid var(--e);
+}
+
+.text_content
+{
+
+    font-family: Roboto, sans-serif;
+    color : #626262;
+    font-weight : 45;
+    font-size : 4vw;
+    margin-left : 4%;
+    /* margin-top : 2%; */
+    /* justify-content: center; */
+
+    text-align: left;
+    line-height: 0.1;
+    /* background-color: black; */
+}
+.Texte
+{
+    margin-top : 6%;
+    font-family: 'Roboto', arial;
+    font-size:5.6vw;
+    color : #626262;
+    font-weight : Black;
+    margin-left : 3%;
+
+}
+
+.Contact
+{
+    font-family: 'Roboto', arial;
+    font-weight: lighter;
+    color : #626262;
+    font-size : 4.9vw;
+    text-align : center;
+}
