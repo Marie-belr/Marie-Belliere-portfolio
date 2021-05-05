@@ -52,6 +52,10 @@
     font-size : 1.7vw;
     margin-left : 4%;
     margin-top : 1%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    text-align: justify;
+    line-height: 150%;
 }
 
 .test
@@ -119,6 +123,7 @@
     color : #626262;
     font-weight : rgb(0, 0, 0);
     margin-left : 3%;
+    margin-top: 2%;
 }
 
 .Contact
